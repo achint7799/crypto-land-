@@ -1,0 +1,83 @@
+body{
+    background-image: url("./assets/bg.png");
+    overflow: visible;
+    background-size: cover;
+    z-index: 0;
+}
+
+.navbar{
+   background-color: rgb(0, 0, 0);
+   z-index: 2;
+   height: 100px;
+   margin: -20px -10px 0px -10px;
+}
+
+.navbar .logo{
+    position: absolute;
+    display: block;
+    overflow-x: visible;
+    width: 120px;
+    margin: 15px 0px 0px 20px;
+}
+
+.navbar li{
+    list-style-type: none;
+    position: relative;
+    float: left;
+    display: inline;
+    padding: 30px;
+    top: 10px;
+    left: 300px;
+    color: aliceblue;
+    font-family: "Montserrat";
+    
+}
+
+.navbar .button-small{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-size: 16px;
+    background-color: rgb(221, 51, 233);
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+
+
+}
+.hero-heading{
+    display: inline;
+    position:absolute;
+    top: 200px;
+    left: 480px;
+    color: azure;
+    font-family: "Montserrat";
+    font-size: 60px;
+    text-align: center;
+}
+.hero-description{
+    position: absolute;
+    top: 400px;
+    left: 540px;
+    color: azure;
+    font-family: "Montserrat";
+    font-size: 22px;
+    text-align: justify;
+}
+.button-large{
+    position: absolute;
+    bottom: 150px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    background-color: rgb(221, 51, 233);
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 20px;
+    right: 600px;
+    border: none;
+
+}
